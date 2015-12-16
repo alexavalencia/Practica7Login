@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E68A8"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
+        <ImageView
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cineimag2"/>
+
+        <EditText
+            android:layout_width="380sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:hint="@string/usuaio"
+            android:textColorHint="@color/darkgray"
+            android:textStyle="italic"
+            android:typeface="sans"
+            android:textAlignment="center"
+            android:id="@+id/email"/>
+
+        <EditText
+            android:layout_width="380sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:hint="@string/contraseña"
+            android:textColorHint="@color/darkgray"
+            android:textStyle="italic"
+            android:typeface="sans"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:id="@+id/contraseña"/>
+        <Button
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresar"
+            android:textSize="25sp"
+            android:typeface="sans"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:id="@+id/binicio"
+            android:onClick="inicio"/>
+        <Button
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:text="@string/registro"
+            android:textSize="25sp"
+            android:typeface="sans"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:id="@+id/bregistro"
+            android:onClick="registro"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

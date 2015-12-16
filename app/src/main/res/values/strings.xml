@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Royal Films</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="usuaio">Email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registro">Resgistrarse</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellido:</string>
+    <string name="email">Email:</string>
+    <string name="codigotarj">Codigo De La Tarjeta:</string>
+    <string name="contrase">Contraseña: </string>
+    <string name="aceptar">Aceptar</string>
+
+</resources>
