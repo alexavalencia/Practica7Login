@@ -30,15 +30,18 @@ public class RegistroActivity extends AppCompatActivity {
 
     public void inicio(View view){
         Intent backData = new Intent(this,MainActivity.class);
-        backData.putExtra("nombre1",nombre.getText().toString());
+       backData.putExtra("nombre1",nombre.getText().toString());
         backData.putExtra("apellido1", apellido.getText().toString());
         backData.putExtra("email1", correo.getText().toString());
         backData.putExtra("contraseña1", contraseña.getText().toString());
         backData.putExtra("codigotarjeta1", codigo.getText().toString());
         setResult(1, backData);
+        nombre.setText("");
+        apellido.setText("");
+        correo.setText("");
+        contraseña.setText("");
+        codigo.setText("");
         finish();
-       // Intent intent=new Intent(this,MainActivity.class);
-        //startActivity(intent);
 
 
 
